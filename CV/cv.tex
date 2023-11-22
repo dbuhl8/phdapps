@@ -71,7 +71,6 @@
 \setlength{\parindent}{0in}
 
 %% This gives us fun enumeration environments. compactitem will be nice.
-\usepackage{paralist}
 
 %% Reference the last page in the page number
 %
@@ -161,7 +160,7 @@
 
 % An itemize-style list with little space between items
 \newenvironment{innerlist}[1][\enskip\textbullet]%
-        {\begin{compactitem}[#1]}{\end{compactitem}}
+        {\begin{enumerate}[#1]}{\end{enumerate}}
 
 % To add some paragraph space between lines.
 % This also tells LaTeX to preferably break a page on one of these gaps
@@ -173,7 +172,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-\makeheading{Ulises Jaime-Yepez}
+\makeheading{Dante Buhl}
 
 \section{Personal Information}
 \newlength{\rcollength}\setlength{\rcollength}{1.85in}
@@ -183,57 +182,49 @@
 University of California Santa Cruz,\\
 Department of Engineering,\\
 Santa Cruz, CA, 95064\\
-% Address: math.mit.edu/$\sim$casals/\\
+Address: \href{https://dbuhl8.github.io/website/}{Personal Website}\\
 \columnbreak
 
 Citizenship: U.S.A\\
-Date of Birth: 20th August 1997\\
-E-mail: \href{ujaimeye@ucsc.edu}{ujaimeye@ucsc.edu} \\
+Date of Birth: 27th November 2001\\
+E-mail: \href{dbuhl@ucsc.edu}{dbuhl@ucsc.edu} \\
 \end{multicols}
 \vspace{-1cm}
-\section{Research Interests} Population Dynamics, Math Bio, Fluid Dynamics, Control Theory, Stochastic Modeling, PDE based research 
+\section{Research Interests} Fluid Dynamics, Machine Learning, Dynamical Systems, High Performance Computing, PDE based research
 
 \section{Employment}
 
-{\textbf{University of California Davis}}\\
-{Department of Mathematics UCD}, Davis, California, USA\\
-Reader Mathematics: September 2019 -- 2021.\\
+{\textbf{University of California Santa Cruz}}\\
+{Department of Applied Mathematics UCSC}, Santa Cruz, California, USA\\
+Teaching Assistant: September 2023-2024.\\
 
-{\textbf{University of California Davis}}\\
-{Department of Graduate and Management }, Davis, California, USA\\
-Technical Writer \& Data Analyst: September 2019 -- September 2020.\\
+{\textbf{Towson University REU}}
+{Department of Mathematics}, Towson, Maryland, USA\\
+Research Assistant: June 2023 -- August 2023\\
 
-{\textbf{MTBI Research Program}}\\
-Tempe, Arizona, USA\\
-Student Researcher (10 weeks) June 5th - August 1st, 2019.\\
+{\textbf{University of California Santa Cruz}}\\
+{Learning Support Services}, Santa Cruz, California, USA\\
+Peer-Group Tutor: September 2022 -- June 2023.\\
 
 \section{Education}
-{\textbf{ Bachelors of Science}} \\
-Major Applied Mathematics; Minor Construction Engineering/Management\\
-Department of Mathematics, Davis, California, USA\\ \vspace{.2cm} 
+{\textbf{Masters of Science (August 2023-Current)}} \\
+Major: Scientific Computing and Applied Mathematics; Thesis: Fluid Dynamics\\
+Department of Applied Mathematics, Santa Cruz, California, USA\\ \vspace{.2cm} 
 
-{\bf PhD Student (Fall 2021-Current)- Applied Mathematics}\\
-Baskins Engineering, Santa Cruz, California, USA\\
+{\textbf{Bachelors of Arts} \\
+Major: Mathematics; Graduated with highest honors in the major\\
+Department of Mathematics, Santa Cruz, California, USA\\ \vspace{.2cm} 
 
 \section{Teaching \\Experience}
 
-{\textbf{AM 20} (TA,Summer 2022): Mathematical Methods for Engineers II} \\
-{\textbf{AM 114/214} (TA,Fall 2022): Applied Dynamical Systems} \\
-{\textbf{AM 107/217} (TA,Winter 2023): Intro To Fluid Dynamics}
+{\textbf{Math 19A} (TA,Fall 2023, Peer-Group Tutor, Fall 2022): Calculus for Science, Engineering, and Mathematics} \\
+{\textbf{Math 11A} (Peer Group Tutor,Winter 2023 - Spring 2023): Calculus with Applications}
 
-\section{Research\\Articles}
-
-% {\bf Preprints}\\
-
-\textbf{The Role of Preferential Mating and Wolbachia Infection on the \emph{Aedes Aegypti} Population Dynamics},\\
-Bernardo Ameneyro Rodriguez, Max Chavez, Ulises Jaime-Yepez, Brian Chau, Zhen Wang, Anuj Mubay\\
 
 \section{Awards And\\Recognitions}
 
-\textbf{CITL Graduate Pedagogy Fellowship} 2023. \\
-\textbf{AM TA teaching award}, Fall 2022, UCSC Applied Math Department.\\
-\textbf{Arizona State University, Completion of MTBI Program}. Stipend of \$5000.\\
-\textbf{Eric C Ruliffson Scholarship}, UC Davis Applied Math Department \$2,500 
+\textbf{Next Gen Scholars in Applied Mathematics Scholarship} UC Santa Cruz Applied Math Dept. 2023. \\
+\textbf{T&LC Graduate Pedagogy Fellowship}, UC Santa Cruz \$500 
 
 
 \newpage
@@ -241,38 +232,37 @@ Bernardo Ameneyro Rodriguez, Max Chavez, Ulises Jaime-Yepez, Brian Chau, Zhen Wa
 \section{Languages and Other Activities}
 %
 \begin{innerlist}
-\item[-] Spanish \& English: Native writer, and speaker.\\
-\item[-]Intermediate German.\\ 
-\item[-]President (2019-2020) and Member of Alpha Sigma Phi Fraternity\\ 
-\item[-] Proficient in MATLAB, Maple, Excel, Java, and Python
+\item[-] Intermediate Spanish\\ 
+\item[-] Secretary (2019-2020) and Member of Slugs United by Mathematics Math Club\\ 
+\item[-] Proficient in Fortran, Python, Matlab, Java, and Excel. 
 
 \end{innerlist}
 
 
 \section{References}
 \begin{multicols}{2}
-{\bf Roger Casals},\\
-UC Davis Mathematics Professor,\\
-University of California Davis,\\
-1 Shields Ave\\
-Davis, CA 95616\\
+{\bf Pascale Garaud},\\
+Chair of Department of Applied Mathematics; Professor of Applied Mathematics,\\
+University of California Santa Cruz,\\
+606 Engineering Loop\\
+Santa Cruz, CA 95060\\
 
-\textbf{Baltazar Espinoza}, \\
- Assistant Professor,\\
-University of Virginia\\
- Charlottesville, VA\\
+\textbf{Herve Nganguia}, \\
+Assistant Professor of Mathematics,\\
+Towson University\\
+ Towson, MD 21252\\
 
 \columnbreak
 
- \textbf{Anuj Mubayi},\\
- Assistant Professor,\\
- Arizona State University,\\
- Tempe, AZ 85281\\
+ \textbf{Chris Edwards},\\
+ Professor of Ocean Sciences,\\
+ University of California Santa Cruz,\\
+ Santa Cruz, CA 95060\\
  
-\textbf{Baojun Song},\\
- Research Professor,\\
- Montclair University,\\
- 1 Normal Ave, Montclair, NJ 07043
+\textbf{Add Refernce Here},\\
+ Position,\\
+ Place of Employment,\\
+ Address
 
 \end{multicols}
 \end{document}
