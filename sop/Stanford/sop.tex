@@ -1,0 +1,68 @@
+%source: http://tex.stackexchange.com/a/150903/23931
+\documentclass{article}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{tgschola} % or any other font package you like
+\usepackage{verbatim}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{%
+  \footnotesize\sffamily
+  \yourname\quad
+  web: \textcolor{blue}{\itshape\yourweb}\quad
+  \youremail}
+
+\newcommand{\soptitle}{Statement of Purpose}
+\newcommand{\yourname}{Dante Buhl}
+\newcommand{\youremail}{dbuhl8@gmail.com}
+\newcommand{\yourweb}{https://dbuhl8.github.io/website/}
+
+\newcommand{\statement}[1]{\par\medskip
+  \underline{\textcolor{blue}{\textbf{#1:}}}\space
+}
+
+\usepackage[
+  colorlinks,
+  breaklinks,
+  pdftitle={\yourname - \soptitle},
+  pdfauthor={\yourname},
+  unicode
+]{hyperref}
+
+\begin{document}
+
+\begin{center}\LARGE\soptitle\\
+\large of \yourname\ (Applied Math PhD applicant for Fall---2024)
+\end{center}
+
+\hrule
+\vspace{1pt}
+\hrule height 1pt
+
+\bigskip
+
+\large
+%Intro
+Growing up in the Greater Sacramento Area and coming from a low-income family, I had never thought that I would want to become an academic, or at least get a PhD one day. And yet, here I am at 22 years of age with a drive to learn more and make new insights in the field of fluid dynamics. I went to the University of California Santa Cruz as a first-gen student for my undergrad in Mathematics and graduated in 3 short years with a GPA of 3.74 and highest honors in the major. Before my departure, I found a department that was doing a really interesting fusion of mathematics and computer science. This was, of course, the Applied Mathematics Department (later referenced as A.M. Department), which happened to have an amazing 4+1 master's program. This is my current academic position as I am writing this application: a graduate student in UC Santa Cruz's A.M. Department. 
+
+%Undergrad
+My undergraduate experience, although overall very strong, had a rough start. This was primarily resultant of the online medium of education in my freshman year, at the height of the pandemic. Since most of my assignments and lectures could be done at my leisure, I began working upwards of 55 hours per week in order to support my family. I eventually failed a course due to this practice, and had to re-evaluate my study style. Besides this, high notes of my undergraduate career were research projects I did in my last year of undergrad. The first project was an investigation of the chaotic Lorenz Ski-Slope system published in Lorenz's book, \textit{The Essence of Chaos}. Our work involved reproducing poincare maps, phase portraits, and visualizations the four-dimensional chaotic attractor. The second research project was focused on numerically computing the lyapunov dimension of three-dimensional chaotic attractors, and utilized the Gram-Schmidt Ortho-normalization Process and variational methods for dynamical systems. These experiences ultimately introduced me to the complex world of numerical methods for differential equations and linear algebra which would become the focus of my master's degree. 
+
+Towards the end of my undergraduate career, I took two graduate level fluid dynamics courses. One was an introductory course taught by Nicholas Brummell, and the other was a Geophysical fluid dynamics course taught by Chris Edwards. These courses cemented my interest in fluid dynamics and prepared myself for work in that field of study. 
+
+%Grad
+Upon graduating from UC Santa Cruz in June 2023, I participated in Towson University's summer REU program in Maryland. The principal investigator for this research was Herve Nganguia, a fluid dynamicist whose specialty is math-bio related problems. Our work focused on using Deep-Learning to create numerical models which complemented prior analytical work published in a paper by Nganguia concerning the propulsion efficiency of ciliated spherical ``squirmers'' in Stokes Flow. This program was also focused on preparing participants in research-focused mathematical writing and communication. A notable presentation on this work is scheduled to be at the Joint Mathematics Meeting in San Francisco this coming January 2024. The REU ended at the beginning of August 2023, and I soon after started a new research project in Santa Cruz. 
+
+Currently in my first quarter of graduate studies, I plan to complete a master's thesis on the effect of rotation on stratified turbulence in stellar fluids under the guidance of Pascale Garaud, a well-published researcher in astrophysical and geophysical fluid dynamics. This research involves Direct Numerical Simulations (DNS) and analytical work which will append to Garaud's prior findings on stratified turbulence. Specific details include multi-scale analysis of the governing equations and investigation of the flow regimes that originate from relevant non-dimensional numbers. Features of the DNS design include stochastic Gaussian Process forcing methods, Spectral Integration Methods, and a triply-periodic domain. In addition to my thesis, I plan to take another course in fluid dynamics titled, ``Waves, Instabilities, and Turbulence'', in order to prepare for a PhD on the subject. Funding for my master's degree is secured by working as a Teaching Assistant for derivative and integral calculus courses which utilizes my background of equity-based pedagogy from prior positions with learning centers. The expected time of completion for the degree is the spring or summer of 2024. 
+
+%Transition to future with a specific school and why I could be good there.
+Moving into the future, I could see myself fitting in well at Stanford. Stanford is home to a collection of worldwide-renowned Fluid Dynamicists and is located in my home state of California. As an aspiring fluid dynamicist, there is no lack of programs that I would like to be involved with. Within the Institute for Computational and Mathematical Engineering, there are two affiliated professors with highly attractive programs. The first is Catherine Gorl\'e, whose focus seems to include multi-scale CFD methods and predictive modeling in conjunction with the Wind Engineering Lab at Stanford. Some of the group's recent publications on developing ventilation flow models with variable boundary conditions are examples of work that might revolutionize infrastructure design and urban planning in the future and which I would love to be a part of. Another interesting faculty member is Ali Mani of the Mani Group. That particular group seems very stimulating due to the focus of solving fluids problems that involve chaos and turbulence. I relish the concept of mathematical chaos and its phenomonization in diffential equations, and thus would naturally love to study it in conjunction with fluids. As a potential candidate for either program, I would come with a strong background of numerical prowess as well as defined experience with Navier-Stokes and other physics-related PDE's. 
+
+%Conclusion
+Ultimately, I'm a proud and hard-working student with a passion for working with Navier-Stokes and Fluid Dynamics. With a career of scientific and applied mathematics research in mind, a PhD would further my interests greatly and bring me into a position of being able to do advanced work in engineering fields later in life. My recent academic experiences have culminated into a well rounded foundation for PhD research and I look forward to navigating opportunities in the future. Thank you for considering me in your program. 
+
+%The prospect of continuing to do advanced research in this field is highly attractive, both in the realms of numerical work and analytical work. My experience with prior research projects has helped me understand in which research situations I thrive in and those which I do not. I'm very excited to do more work in the future and find my place in a new project. Thank you for considering me in your program. 
+
+\end{document}
