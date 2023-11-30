@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.10.23)  29 NOV 2023 14:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.10.23)  30 NOV 2023 12:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -289,9 +289,9 @@ Here is how much of TeX's memory you used:
  29133 multiletter control sequences out of 15000+600000
  528217 words of font info for 39 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 63i,11n,67p,1944b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,11n,67p,1946b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/tex-gyre/qcsr.pfb></usr/share/texmf-dist/fonts/type1/public/tex-gyre/qcsri.pfb>
-Output written on sop.pdf (2 pages, 79246 bytes).
+Output written on sop.pdf (2 pages, 79263 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream
