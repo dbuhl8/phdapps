@@ -1,0 +1,65 @@
+%source: http://tex.stackexchange.com/a/150903/23931
+\documentclass{article}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{tgschola} % or any other font package you like
+\usepackage{verbatim}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{%
+  \footnotesize\sffamily
+  \yourname\quad
+  web: \textcolor{blue}{\itshape\yourweb}\quad
+  \youremail}
+
+\newcommand{\soptitle}{Statement of Purpose}
+\newcommand{\yourname}{Dante Buhl}
+\newcommand{\youremail}{dbuhl8@gmail.com}
+\newcommand{\yourweb}{https://dbuhl8.github.io/website/}
+
+\newcommand{\statement}[1]{\par\medskip
+  \underline{\textcolor{blue}{\textbf{#1:}}}\space
+}
+
+\usepackage[
+  colorlinks,
+  breaklinks,
+  pdftitle={\yourname - \soptitle},
+  pdfauthor={\yourname},
+  unicode
+]{hyperref}
+
+\begin{document}
+
+\begin{center}\LARGE\soptitle\\
+\large of \yourname\ (Mechanical Engineering PhD applicant for Fall---2024)
+\end{center}
+
+\hrule
+\vspace{1pt}
+\hrule height 1pt
+
+\bigskip
+
+\large
+%Intro - Why I want to go graduate study on fluid dynamics
+My goals for my graduate studies are ultimately to pursue a doctoral degree in the field of mechanical engineering with a specific focus on fluid dynamics and an engineering career that will utilize that degree. I've had a keen interest in the topic for several years now, but my endeavors into the subject have only begun in the last two years with fluid dynamics courses and two research experiences. 
+
+%Experience with and Aptitude for Fluid Dynamics (try to condense this)
+I did my undergrad in Pure Mathematics at UC Santa Cruz starting in 2020. In my 3rd and last year of undergrad, I met some of the Fluid Dynamics faculty at UC Santa Cruz, and soon became very invested in the program that they had. I took two graduate level fluid dynamics courses wihtin the next two quarters of study. One was an introductory course taught by Nicholas Brummell from the A.M. Department, and the other was taught by Chris Edwards from the Ocean Sciences department and focused on geophysical fluid dynamics. These courses cemented my interest in the general subject while also readying me for my REU and master's thesis. Soon, I also plan to take another course, AM 227: "Waves, Instabilities, and Turbulence," in the Winter of 2024. This course should further augment my prior knowledge per my graduate studies. 
+
+%Turn these two paragraphs into a paragraph about research experience in Fluids
+Besides coursework, I also have some research experience with fluid dynamics. Upon graduating with my bachelor's degree in Mathematics in June 2023, I participated in a summer REU program at Towson University. The principal investigator for this research was Herve Nganguia, a fluid dynamicist who specializes in math-bio related problems. Our work focused on using Deep-Learning to create numerical models, which complemented prior analytical work published in a paper by Nganguia concerning the propulsion efficiency of ciliated spherical ``squirmers'' in Stokes Flow. As a result, our neural networks were trained on a compact version of the Stokes Equation in various coordinate systems, including spherical and spheroidal coordinates. The other significant research experience is in conjunction with my master's degree at UC Santa Cruz. For my thesis, I'm currently working on a paper about the effect of rotation on stratified turbulence in stellar fluids under the guidance of Pascale Garaud, a well-published researcher in astrophysical and geophysical fluid dynamics. This research involves Direct Numerical Simulations (abbreviated DNS) and analytical work that will append to Garaud's prior findings on stratified turbulence. Some details of this work include multi-scale analysis of the governing equations and investigation of the regimes that originate from relevant non-dimensional numbers. The DNS models are designed using MPI, a high-performance computing standard, and feature stochastic forcing methods with Gaussian Processes, Spectral Integration Methods, and triply-periodic domains. As for research experience, I've also done other projects on the topic of dynamical systems (more information on which can be found on my CV and website), but the projects mentioned here are those most relevant to fluid dynamics. 
+
+%This program was also focused on preparing participants in research-focused mathematical work and featured several presentation opportunities. The most notable presentation on this work is scheduled to be at the Joint Mathematics Meeting in San Francisco this coming January 2024. This program gave me some hands on experience with budding problems in the community as well as familiarized myself with the focus needed for research. 
+
+%Why I want to do it at berkeley (try to expand this)
+Moving into the future, I see myself fitting in very well at UC Berkeley. I want to remain in California, the state I grew up in, and Berkeley is close to where I live now in Santa Cruz. Berkeley is also known to be a great institution for Fluid Dynamics, with a large list of faculty to support the field of study. Of the many names at Berkeley, some of those that stand out are Alexis Kaminski, Simo M\"akiharju, and Jon Wilkening. I had heard of these professors from my current advisor, and from their recent research and publications, I think they might be great fits. Kaminski was part of an exciting paper submitted last year on the exhibition of sensitive dependence on initial conditions in several stratified turbulence models. I think I would do well in Kaminski's group with my experience with chaotic systems, stratified turbulence, and GFD. As for Simo M\"akiharju, his involvement with the FLOW Lab at UC Berkeley is a strong interest of mine. The FLOW lab's focus on multiphase flows seems like a great place to study to go into an applied engineering field in my future. My background in fluid dynamics would fit well as a general education to start here and develop experimental expertise. Finally, Jon Wilkening in the Mathematics department seemed a good fit because of his focus on computational methods for waves and flows. My background of pure mathematics and computational methods would pair nicely with the type of work that they are doing. Since all of them work on fluid dynamics problems, I think I could find projects in any of their subfields and would be happy to work with them. 
+
+%MAYBE CHANGE THIS
+Ultimately, I'm a proud and hard-working student who has, within the last year, developed a passion for working with Navier-Stokes and Fluid Dynamics. With a goal of going into an applied engineering field in the future, I'd love to study Fluid Dynamics within Mechanical Engineering at UC Berkeley to make that more of a reality. 
+
+
+\end{document}
