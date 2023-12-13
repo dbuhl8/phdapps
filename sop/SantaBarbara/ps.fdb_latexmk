@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1702494561 "sop.tex" "sop.pdf" "sop" 1702494561 0
+["pdflatex"] 1702495175 "ps.tex" "ps.pdf" "ps" 1702495175 0
   "/usr/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc" 1689853683 2409 c64dab22331c83731e970f6020b4448b ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmss8.tfm" 1689853683 1296 d77f431d10d47c8ea2cc18cf45346274 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmssi8.tfm" 1689853683 1500 7f49257eca65a87057f17452e9fe3ef5 ""
@@ -55,12 +55,12 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1689853683 40684 9b9ec0b4288972636ff6a3b9c4238efc ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1698123220 325518 3dff2bac5bde75cd7e600320ce8a00d6 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1698123220 6768052 eefaddf843b510097155ae339b9c1acc ""
-  "sop.aux" 1702494561 554 04ae3964aa57b78538b565d0454a3de2 "pdflatex"
-  "sop.out" 1702494561 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "sop.tex" 1702494560 6257 35bf6ff9c311cea5c7cc203a04e9476c ""
+  "ps.aux" 1702495175 554 04ae3964aa57b78538b565d0454a3de2 "pdflatex"
+  "ps.out" 1702495175 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "ps.tex" 1702495174 5499 421f8c2e7ae7cc0d94b6d189628fe26e ""
   (generated)
-  "sop.aux"
-  "sop.log"
-  "sop.out"
-  "sop.pdf"
+  "ps.aux"
+  "ps.log"
+  "ps.out"
+  "ps.pdf"
   (rewritten before read)

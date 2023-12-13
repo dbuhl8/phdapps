@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.10.23)  13 DEC 2023 11:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.10.23)  13 DEC 2023 11:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**sop.tex
-(./sop.tex
+**ps.tex
+(./ps.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -199,8 +199,8 @@ File: ot1qcs.fd 2009/09/25 v1.2 font definition file for OT1/qcs
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count273
 \l__pdf_internal_box=\box51
-) (./sop.aux)
-\openout1 = `sop.aux'.
+) (./ps.aux)
+\openout1 = `ps.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
@@ -270,28 +270,28 @@ LaTeX Font Info:    ... okay on input line 34.
 \everyMPtoPDFconversion=\toks21
 )
 Package hyperref Info: Link coloring ON on input line 34.
- (./sop.out) (./sop.out)
+ (./ps.out) (./ps.out)
 \@outlinefile=\write3
-\openout3 = `sop.out'.
+\openout3 = `ps.out'.
 
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 60.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 58.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-{/usr/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc}] [2] (./sop.aux)
-Package rerunfilecheck Info: File `sop.out' has not changed.
+{/usr/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc}] [2] (./ps.aux)
+Package rerunfilecheck Info: File `ps.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  9010 strings out of 477985
- 140146 string characters out of 5840057
- 1871388 words of memory out of 5000000
+ 140129 string characters out of 5840057
+ 1869388 words of memory out of 5000000
  29132 multiletter control sequences out of 15000+600000
  525206 words of font info for 38 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 63i,11n,67p,1859b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,11n,67p,1368b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/tex-gyre/qcsr.pfb>
-Output written on sop.pdf (2 pages, 57652 bytes).
+Output written on ps.pdf (2 pages, 56268 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
