@@ -1,0 +1,61 @@
+%source: http://tex.stackexchange.com/a/150903/23931
+\documentclass{article}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{tgschola} % or any other font package you like
+\usepackage{verbatim}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{%
+  \footnotesize\sffamily
+  \yourname\quad
+  web: \textcolor{blue}{\itshape\yourweb}\quad
+  \youremail}
+
+\newcommand{\soptitle}{Statement of Purpose}
+\newcommand{\yourname}{Dante Buhl}
+\newcommand{\youremail}{dbuhl8@gmail.com}
+\newcommand{\yourweb}{https://dbuhl8.github.io/website/}
+
+\newcommand{\statement}[1]{\par\medskip
+  \underline{\textcolor{blue}{\textbf{#1:}}}\space
+}
+
+\usepackage[
+  colorlinks,
+  breaklinks,
+  pdftitle={\yourname - \soptitle},
+  pdfauthor={\yourname},
+  unicode
+]{hyperref}
+
+\begin{document}
+
+\begin{center}\LARGE\soptitle\\
+\large of \yourname\ (Mechanical Engineering PhD applicant for Fall---2024)
+\end{center}
+
+\hrule
+\vspace{1pt}
+\hrule height 1pt
+
+\bigskip
+
+\large
+%Intro - Why I want to go graduate study on fluid dynamics
+My goal for my graduate studies is to pursue a doctoral degree in mechanical engineering with a specific focus on fluid dynamics and an engineering career that will utilize that degree. I've had a keen interest in the topic for several years, but my endeavors into the subject have only begun in the last two years with fluid dynamics courses and two research experiences.
+
+%Experience with and Aptitude for Fluid Dynamics (try to condense this)
+I did my undergrad in Pure Mathematics at UC Santa Cruz starting in 2020. In my 3rd and last year of undergrad, I met some of the Fluid Dynamics faculty at UC Santa Cruz, and soon became very invested in the program that they had. I took two graduate-level fluid dynamics courses within the next two quarters of study. One was an introductory course taught by Nicholas Brummell from the A.M. Department, and the other was taught by Chris Edwards from the Ocean Sciences department and focused on geophysical fluid dynamics. These courses cemented my interest in the general subject while also readying me for my REU and master's thesis. Soon, I also plan to take another course, AM 227: "Waves, Instabilities, and Turbulence," in the Winter of 2024. This course should further augment my prior knowledge per my graduate studies.
+
+%Turn these two paragraphs into a paragraph about research experience in Fluids
+Besides coursework, I also have some research experience with fluid dynamics. Upon graduating with my bachelor's degree in Mathematics in June 2023, I participated in a summer REU program at Towson University. The principal investigator for this research was Herve Nganguia, a fluid dynamicist specializing in math-bio related problems. Our work focused on using Deep-Learning to create numerical models, which complemented prior analytical work published in a paper by Nganguia concerning the propulsion efficiency of ciliated spherical ``squirmers'' in Stokes Flow. As a result, our neural networks were trained on a compact version of the Stokes Equation in various coordinate systems, including spherical and spheroidal coordinates. The other significant research experience is in conjunction with my master's degree at UC Santa Cruz. For my thesis, I'm currently working on a paper about the effect of rotation on stratified turbulence in stellar fluids under the guidance of Pascale Garaud, a well-published researcher in astrophysical and geophysical fluid dynamics. This research involves Direct Numerical Simulations (abbreviated DNS) and analytical work that will append to Garaud's prior findings on stratified turbulence. Some details of this work include a multi-scale analysis of the governing equations and an investigation of flow regimes originating from relevant non-dimensional numbers. The DNS models are designed using MPI, a high-performance computing standard, and feature stochastic forcing methods with Gaussian Processes, Spectral Integration Methods, and triply-periodic domains. As for research experience, I've also done other projects on the topic of dynamical systems (more information on which can be found on my CV and website), but the projects mentioned here are most relevant to fluid dynamics.
+ 
+
+%Why I want to do it at Cal Tech, John Dabiri, Tom Colonius, Guillaume Blanquart
+Moving into the future, I see myself fitting in well at Cal Tech. I want to remain in California, where I was born and raised, and Pasadena is a beautiful part of the state. The primary reason for my desire to study within the mechanical engineering program at Cal Tech is that it is full of driven fluid dynamicists. From the information online and my current advisor's recommendation, John Dabiri, Guillaume Blanquart, and Tim Colonius are three faculty members who stand out among the faculty members there. Luzzatto-Fegiz and the Fluid Energy Science Lab have an impressive program in which I would do well. I want to work on fluid problems that influence more sustainable ways to use, produce, or conserve energy. The Fluid Energy Lab is an institution that would cater to this goal and allow me to thrive in this area of research. Eckart Meiburg also has a program that uses CFD to study geological and environmental problems. Researching fluid problems which inform the understanding of environmental processes is highly appealing. Specifically, I would be an excellent fit for the program because a primary method of inquiry in a lot of Meiburg's work is computational. Studying under either faculty member mentioned would put me on a stable career track in engineering with a great deal of relevant knowledge for the industry. My fluid dynamics background is a strong foundation for continuing into doctoral research, and I'd love to do that at Caltech's Mechanical Engineering Department.
+
+
+\end{document}
