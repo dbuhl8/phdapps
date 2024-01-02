@@ -1,0 +1,65 @@
+%source: http://tex.stackexchange.com/a/150903/23931
+\documentclass{article}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{tgschola} % or any other font package you like
+\usepackage{verbatim}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{%
+  \footnotesize\sffamily
+  \yourname\quad
+  web: \textcolor{blue}{\itshape\yourweb}\quad
+  \youremail}
+
+\newcommand{\soptitle}{Statement of Purpose}
+\newcommand{\yourname}{Dante Buhl}
+\newcommand{\youremail}{dbuhl8@gmail.com}
+\newcommand{\yourweb}{https://dbuhl8.github.io/website/}
+
+\newcommand{\statement}[1]{\par\medskip
+  \underline{\textcolor{blue}{\textbf{#1:}}}\space
+}
+
+\usepackage[
+  colorlinks,
+  breaklinks,
+  pdftitle={\yourname - \soptitle},
+  pdfauthor={\yourname},
+  unicode
+]{hyperref}
+
+\begin{document}
+
+\begin{center}\LARGE\soptitle\\
+\large of \yourname\ (Applied Mathematics PhD applicant for Fall---2024)
+\end{center}
+
+\hrule
+\vspace{1pt}
+\hrule height 1pt
+
+\bigskip
+
+\large
+%Intro - Why I want to go graduate study on fluid dynamics
+My goal for my graduate studies is to pursue a doctoral degree in applied mathematics with a specific focus on fluid dynamics and an applied engineering career that will utilize that degree. I've had a keen interest in the topic for several years, but my endeavors into the subject have only begun in the last two years with fluid dynamics courses and two research experiences.
+
+%Experience with and Aptitude for Fluid Dynamics (try to condense this)
+I did my undergrad in Pure Mathematics at UC Santa Cruz starting in 2020. In my 3rd and last year of undergrad, I met some of the Fluid Dynamics faculty at UC Santa Cruz, and soon became very invested in the program that they had. I took two graduate-level fluid dynamics courses within the next two quarters of study. One was an introductory course taught by Nicholas Brummell from the A.M. Department, and the other was taught by Chris Edwards from the Ocean Sciences department and focused on geophysical fluid dynamics. These courses cemented my interest in the subject while also readying me for my REU and master's thesis. Soon, I also plan to take another course, AM 227: "Waves, Instabilities, and Turbulence," in the Winter of 2024. This course and the rest of the SciCAM master's curriculum should further augment my understanding in preparation for a Ph.D. on Fluid Dynamics.
+
+%Turn these two paragraphs into a paragraph about research experience in Fluids
+Besides coursework, I also have some research experience with fluid dynamics. Upon graduating with my bachelor's degree in Mathematics in June 2023, I participated in a summer REU program at Towson University. The principal investigator for this research was Herve Nganguia, a fluid dynamicist specializing in math-bio related problems. Our work focused on using Deep-Learning to create numerical models, which complemented prior analytical work published in a paper by Nganguia concerning the propulsion efficiency of ciliated spherical ``squirmers'' in Stokes Flow. As a result, our neural networks were trained on a compact version of the Stokes Equation in various coordinate systems, including spherical and spheroidal coordinates. The other significant research experience is in conjunction with my master's degree at UC Santa Cruz. For my thesis, I'm currently working on a paper about the effect of rotation on stratified turbulence in stellar fluids under the guidance of Pascale Garaud, a well-published researcher in astrophysical and geophysical fluid dynamics. This research involves Direct Numerical Simulations (abbreviated DNS) and analytical work that will append to Garaud's prior findings on stratified turbulence. Some details of this work include a multi-scale analysis of the governing equations and an investigation of flow regimes originating from relevant non-dimensional numbers. The DNS models are designed using MPI, a high-performance computing standard, and feature stochastic forcing methods with Gaussian Processes, Spectral Integration Methods, and triply-periodic domains. As for research experience, I've also done other projects on the topic of dynamical systems (more information on which can be found on my CV and website), but the projects mentioned here are most relevant to fluid dynamics.
+
+%This program was also focused on preparing participants in research-focused mathematical work and featured several presentation opportunities. The most notable presentation on this work is scheduled to be at the Joint Mathematics Meeting in San Francisco this coming January 2024. This program gave me some hands on experience with budding problems in the community as well as familiarized myself with the focus needed for research. 
+
+%Why I want to do it at Santa Cruz
+Moving into the future, I see myself continuing at UC Santa Cruz for my Ph.D.. I want to remain in California, where I was born and raised, and I've come to love living in Santa Cruz. The primary reason for my desire to study at UC Santa Cruz is the fluids faculty group in the Applied Mathematics Department there. Based on my prior work with Pascale Garaud, I want to continue onto a Ph.D. project with her. Garaud is currently developing a long-term project studying mixing regimes in rotating stratified astrophysical flows. From my understanding this work will involve several years of work with DNS and asymptotic methods in order to develop reliable rotational mixing models. My current master's project with Garaud is aimed at preparing PADDI, a Parallel DNS code used in many of her projects, to include rotation (coriolis force) as well as a stochastic forcing procedure. Since this is the code which is proposed to be used in Garaud's project, I would come into the project with an intimate understanding of the DNS structure and design. I see the work I do with Pascale Garaud as being very valuable for my long term career goals as well. I've had a goal of eventually working at an applied engineering institution such as NASA and John Hopkins APL and these institutions are always looking for new scientists with a strong understanding of modern advanced computing techniques, mathematics, and physics. 
+
+Ultimately, purusing a Ph.D. at UC Santa Cruz is the next logical step for my career. My prior experience at UCSC is the perfect preparation for the more serious graduate work that the univeristy offers. I firmly believe in the department's mission of understanding the world of science better with the aid of modern computing techniques and mathematics. Thank you for your consideration. 
+
+
+
+\end{document}
